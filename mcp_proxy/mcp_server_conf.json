@@ -1,0 +1,20 @@
+{
+  "mcp_server": [
+    {
+      "name": "stdio_server",
+      "transport": "stdio",
+      "command": "python3",
+      "args": ["stdio_server.py"]
+    },
+    {
+      "name": "sse_server",
+      "transport": "sse",
+      "url": "http://127.0.0.1:8080/sse"
+    },
+    {
+      "name": "streamable-http_server",
+      "transport": "streamable-http",
+      "url": "http://127.0.0.1:8081/mcp"
+    }
+  ]
+}
